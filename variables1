@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#environment variables
+
+export b=\$20
+
+c=\$10
+
+echo "i need to pay $c to mukesh"
+
+./test

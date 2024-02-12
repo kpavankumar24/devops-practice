@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#local-variables
+
+a="iup"
+
+echo "my university is $a "
+
+a="pes"
+echo " my clg is $a "
+./test

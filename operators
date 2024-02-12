@@ -1,0 +1,29 @@
+#!/bin/bash
+
+a=20
+b=10
+#addition
+add=`expr $a + $b`
+echo "addition of $a and $b : $add "
+#subraction
+sub=`expr $a - $b`
+echo "subraction of $a and $b : $sub "
+#multiplication
+mul=`expr $a \* $b`
+echo "multiplication of $a and $b : $mul "
+#division
+div=`expr $a / $b`
+echo "division of $a and $b : $div "
+#modules
+mod=`expr $a % $b`
+echo "modules of  $a and $b : $mod "
+
+#relational operators
+
+if [ $a -gt $b ]; then
+	echo "$a > $b"
+else
+	echo "$a < $b"
+fi
+
+

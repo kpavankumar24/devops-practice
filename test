@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#this is a child class here we will accept a variable from other files
+
+echo " i need to pay $b to arun "
